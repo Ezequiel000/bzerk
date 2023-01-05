@@ -6,11 +6,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html>
+    <html data-theme = "black">
       <head />
       <body>
         <nav><NavBar/></nav>
-        
         {children}
       </body>
     </html>
