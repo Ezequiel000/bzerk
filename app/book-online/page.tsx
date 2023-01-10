@@ -1,6 +1,14 @@
-export default function bookOnline(){
+'use client'
+export default function IntakeForm(){
 
     return(
-        <h1> Hello contact here</h1>
+        <> 
+        <form  name = "clietn intake" data-netlify="true">
+            <label>Name</label>
+            <input type ="text" placeholder="Name"> </input>
+
+        </form>
+    
+        </>
     );
 }

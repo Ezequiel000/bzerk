@@ -1,8 +1,8 @@
-'use client'
-import {useState} from 'react';
+// 'use client'
+// import {useState} from 'react';
 import Link from 'next/link';
 export default function NavBar() {
-  const [navbarOpen, setNavbarOpen] =  useState(false);
+  // const [navbarOpen, setNavbarOpen] =  useState(false);
   return (
     <>
   <div className="navbar bg-base-100">
@@ -17,7 +17,7 @@ export default function NavBar() {
         <li><Link href = "/shop">Shop</Link></li>
         </ul>
       </div>
-      <a className="btn btn-ghost normal-case text-xl">BZERKT</a>
+      <Link className="btn btn-ghost normal-case text-xl" href ="/">BZERKT</Link>
     </div>
     <div className="navbar-center hidden lg:flex">
       <ul className="menu menu-horizontal px-1">
@@ -27,7 +27,7 @@ export default function NavBar() {
       </ul>
     </div>
     <div className="navbar-end">
-      <button className='btn rounded' > <Link href = "/">Book Online</Link></button>
+       <Link className='btn rounded full' href = "/">Book Online</Link>
     </div>
   </div>
     </>

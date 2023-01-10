@@ -1,4 +1,6 @@
 import NavBar from "./NavBar"
+import Footer from "./Footer";
+import Head from "./head";
 import "./globals.css";
 export default function RootLayout({
   children,
@@ -6,11 +8,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html data-theme = "black">
-      <head />
+    <html data-theme = "cyberpunk">
+      <Head/>
       <body>
-        <nav><NavBar/></nav>
+        <NavBar/>
         {children}
+        <Footer/>
       </body>
     </html>
   )
