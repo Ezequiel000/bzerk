@@ -6,9 +6,11 @@ import pic3 from '../public/images/bzerkt_tattoos/pic32.jpg'
 import pic4 from '../public/images/bzerkt_tattoos/pic4.jpg'
 import pic5 from '../public/images/bzerkt_tattoos/pic5.jpg'
 import pic6 from '../public/images/bzerkt_tattoos/pic6.jpg'
+import monito from "../public/images/bzerkt_tattoos/monito-blue-sm.jpeg"
 import pic7 from '../public/images/bzerkt_tattoos/pic7.jpg'
 import banner from "../public/images/bzerkt_tattoos/logo-black-sm.jpeg"
 import Link from 'next/link'
+
 
 export default function Page(){
     return (
@@ -36,7 +38,14 @@ export default function Page(){
                 <div className="carousel-item block ">
                     <Image  width={500} height={500}  src={pic6} alt="Pizza" />
                 </div> 
+                <div className="carousel-item block ">
+                    <Image  width={500} height={500}  src={pic7} alt="Pizza" />
+                </div>
                 
+            </div>
+            <div className = "divider"></div>
+            <div className= "justify-content">
+            <Image  width={1000} height={1000}  alt = "monito"src ={monito}/>
             </div>
     
             <div className = "divider"></div>

@@ -8,14 +8,17 @@ export default function About(){
             <div className = "divider"></div>
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row">
-                    <Image src ={picAbout} alt='pic'/>
+                    <Image width = {900} height = {1000}src ={picAbout} alt='pic'/>
                     <div>
-                    <h1 className="text-5xl font-bold">My Story</h1>
-                    <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <Link className='btn rounded full' href = "/book-online">Let{"'"}s Meet!</Link>
+                    <h1 className="text-5xl font-bold">Brian{"'"}s Story</h1>
+                        <p className="py-6">
+                        My name is Brian (aka Bzerkt_tattoos) and I’ve been tattooing for almost two years now. I have always had a passion for art and drawing, and decided to try my hand at tattooing. I was eventually given the opportunity to apprentice under Steven Embrey (aka STEMink909) and started working at Tinta Kultura. 
+Since then, I have tried to learn and grow with every opportunity, and am continuously striving to be better every day. I have tattooed many different types of tattoos, but Anime tattoos are my primary focus. I’m always down for most types of tattoos so dont hesitate to ask! I’m grateful for anyone following me along this journey and if you’re interested in getting some ink from me, please fill out the booking form at the top of the page.                        </p>
+                    <Link className='btn rounded full' href = "/book-online">Request Appointment</Link>
                     </div>
                 </div>
             </div>
+            <div className="divider"></div>
 
         </>
     );

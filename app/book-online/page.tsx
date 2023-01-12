@@ -6,27 +6,27 @@ export default function IntakeForm(){
             <div className= "divider"> <div className = " prose font-medium">Request Your Appointment</div></div>
                 <div>
                     <label>Fist Name</label>
-                    <input type="text" placeholder="Jane" className="input input-bordered input-accent w-full max-w-xs m-2" />
+                    <input type="text" name="first-name" placeholder="Jane" className="input input-bordered input-accent w-full max-w-xs m-2" />
                 </div>
                 <div>
                     <label>Last Name</label>
-                    <input type="text" placeholder="Doe" className="input input-bordered input-accent w-full max-w-xs m-2" />
+                    <input type="text" name="last-name"  placeholder="Doe" className="input input-bordered input-accent w-full max-w-xs m-2" />
                 </div>
                 <div>
                     <label>Phone</label>
-                    <input type="text" placeholder="###-###-####" className="input input-bordered input-accent w-full max-w-xs m-2" />
+                    <input type="text" name="phone" placeholder="###-###-####" className="input input-bordered input-accent w-full max-w-xs m-2" />
                 </div>
                 <div>
                     <label>Email</label>
-                    <input type="email" placeholder="Add answer here" className="input input-bordered input-accent w-full max-w-xs m-2" />
+                    <input type="email" name="email" placeholder="Add answer here" className="input input-bordered input-accent w-full max-w-xs m-2" />
                 </div>
                 <div>
                     <label>Instagram handle</label>
-                    <input type="text" placeholder="Add answer here" className="input input-bordered input-accent w-full max-w-xs m-2" />
+                    <input type="text" name="Instagram" placeholder="Add answer here" className="input input-bordered input-accent w-full max-w-xs m-2" />
                 </div>
                 <div>
                     <label>Pronouns</label>
-                    <input type="text" placeholder="Add answer here" className="input input-bordered input-accent w-full max-w-xs m-2" />
+                    <input type="text" name="pronouns" placeholder="Add answer here" className="input input-bordered input-accent w-full max-w-xs m-2" />
                 </div>
 
                 <div>
@@ -56,6 +56,9 @@ export default function IntakeForm(){
                         
                     </label>
                 </p>
+              
+                    <input type="submit" name="pronouns" placeholder="Add answer here" className="input input-bordered input-accent w-full max-w-xs m-2" />
+             
              </div>
           </form>
         </div>
