@@ -21,13 +21,13 @@ export default function NavBar() {
     </div>
     <div className="navbar-center hidden lg:flex">
       <ul className="menu menu-horizontal px-1">
-      <li><Link href = "/">HomePage</Link></li>
+      <li><Link href = "/">Home</Link></li>
         <li><Link href = "/about">About</Link></li>
         <li><Link href = "/shop">Shop</Link></li>
       </ul>
     </div>
     <div className="navbar-end">
-       <Link className='btn rounded full' href = "/">Book Online</Link>
+       <Link className='btn rounded full' href = "/book-online">Book Online</Link>
     </div>
   </div>
     </>

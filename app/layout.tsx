@@ -1,6 +1,7 @@
 import NavBar from "./NavBar"
 import Footer from "./Footer";
 import Head from "./head";
+import IntakeForm from "./book-online/page";
 import "./globals.css";
 export default function RootLayout({
   children,
@@ -8,7 +9,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html data-theme = "cyberpunk">
+    <html data-theme = "black">
       <Head/>
       <body>
         <NavBar/>
