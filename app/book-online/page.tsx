@@ -1,7 +1,9 @@
+'use client'
 export default function IntakeForm(){
     return(
         <div className= " flex justify-center justify-content-center m-8">
-            <form name= "Client Intake Form" data-netlify="true">
+            <form name= "contact" data-netlify="true">
+             <input type ="hidden" name ="form-name" value="contact"/>  
             <div className= 'form-contol flex-wrap gap 4'>
             <div className= "divider"> <div className = " prose font-medium">Request Your Appointment</div></div>
                 <div>
@@ -53,12 +55,9 @@ export default function IntakeForm(){
                     </label>
                     <label className="label">
                         <span className="label-text-alt">Max size is 8MB</span>
-                        
                     </label>
                 </p>
-              
                     <input type="submit" name="pronouns" placeholder="Add answer here" className="input input-bordered input-accent w-full max-w-xs m-2" />
-             
              </div>
           </form>
         </div>
