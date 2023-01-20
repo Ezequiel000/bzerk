@@ -1,3 +1,4 @@
+'use client'
 export default function IntakeForm(){
     return(
         <div className= " flex justify-center justify-content-center m-8">
