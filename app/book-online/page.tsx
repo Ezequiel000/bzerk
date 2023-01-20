@@ -51,19 +51,19 @@ export default function IntakeForm(){
                 <div className = 'py-1'>
                     <label>
                     <span className ="m-1">Add file:</span>
-                    <input name="file" type="file"/>
+                    <input name="file1" type="file"/>
                     </label>
                 </div>
                 <div className = 'py-1'>
                     <label>
                     <span className ="m-1">Add file:</span>
-                    <input name="file" type="file"/>
+                    <input name="file2" type="file"/>
                     </label>
                 </div>
                 <div className = 'py-1'>
                     <label>
                     <span className ="m-1">Add file:</span>
-                    <input name="file" type="file"/>
+                    <input name="file3" type="file"/>
                     </label>
                     
                     <label className="label">
