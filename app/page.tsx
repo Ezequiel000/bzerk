@@ -44,8 +44,8 @@ export default function Page(){
                 
             </div>
             <div className = "divider"></div>
-            <div className= "justify-content">
-            <Image  width={1000} height={1000}  alt = "monito"src ={monito}/>
+            <div className= "md justify-items-center">
+            <Image  className= "justify-self-center" width={1000} height={1000} alt = "monito" src ={monito}/>
             </div>
     
             <div className = "divider"></div>
@@ -53,8 +53,8 @@ export default function Page(){
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <Image src = {collage} alt = "desc" ></Image>
                     <div>
-                    <h1 className="text-5xl font-bold">🔥💯🔥💯🔥💯</h1>
-                    <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <h1 className="text-5xl font-bold">🔥💯🔥💯🔥💯🔥</h1>
+                    <p className="py-6">Introducing Brian, your go-to tattoo artist in Upland, CA. Specializing in anime tattoos, but open to any ideas. With a talent for detail and a passion for making your tattoo visions a reality, book your appointment today and let Brian ink you with a one-of-a-kind masterpiece.</p>
                     <Link className='btn rounded full' href = "/book-online">Book Now</Link>
                     </div>
                 </div>

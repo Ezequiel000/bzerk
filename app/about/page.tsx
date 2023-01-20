@@ -13,7 +13,7 @@ export default function About(){
                     <h1 className="text-5xl font-bold">Brian{"'"}s Story</h1>
                         <p className="py-6">
                         My name is Brian (aka Bzerkt_tattoos) and I’ve been tattooing for almost two years now. I have always had a passion for art and drawing, and decided to try my hand at tattooing. I was eventually given the opportunity to apprentice under Steven Embrey (aka STEMink909) and started working at Tinta Kultura. 
-Since then, I have tried to learn and grow with every opportunity, and am continuously striving to be better every day. I have tattooed many different types of tattoos, but Anime tattoos are my primary focus. I’m always down for most types of tattoos so dont hesitate to ask! I’m grateful for anyone following me along this journey and if you’re interested in getting some ink from me, please fill out the booking form at the top of the page.                        </p>
+Since then, I have tried to learn and grow with every opportunity, and am continuously striving to be better every day. I have tattooed many different types of tattoos, but Anime tattoos are my primary focus. I’m always down for most types of tattoos so dont hesitate to ask! I’m grateful for anyone following me along this journey and if you’re interested in getting some ink from me, click the button below to request an appointment.                        </p>
                     <Link className='btn rounded full' href = "/book-online">Request Appointment</Link>
                     </div>
                 </div>

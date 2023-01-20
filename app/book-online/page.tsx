@@ -1,4 +1,3 @@
-'use client'
 export default function IntakeForm(){
     return(
         <div className= " flex justify-center justify-content-center m-8">
@@ -48,16 +47,29 @@ export default function IntakeForm(){
                 <div className="m-2">
                     <label>Upload any refrence files below</label>
                 </div>
-                <p>
+                <div className = 'py-1'>
                     <label>
                     <span className ="m-1">Add file:</span>
                     <input name="file" type="file"/>
                     </label>
+                </div>
+                <div className = 'py-1'>
+                    <label>
+                    <span className ="m-1">Add file:</span>
+                    <input name="file" type="file"/>
+                    </label>
+                </div>
+                <div className = 'py-1'>
+                    <label>
+                    <span className ="m-1">Add file:</span>
+                    <input name="file" type="file"/>
+                    </label>
+                    
                     <label className="label">
                         <span className="label-text-alt">Max size is 8MB</span>
                     </label>
-                </p>
-                    <input type="submit" name="pronouns" placeholder="Add answer here" className="input input-bordered input-accent w-full max-w-xs m-2" />
+                </div>
+                    <input type="submit" placeholder="Add answer here" className="input input-bordered input-accent w-full max-w-xs m-2" />
              </div>
           </form>
         </div>
