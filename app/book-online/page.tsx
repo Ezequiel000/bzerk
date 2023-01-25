@@ -57,17 +57,10 @@ export default function IntakeForm(){
                 <div className = 'py-1'>
                     <label>
                     <span className ="m-1">Add file:</span>
-                    <input name="file2" type="file"/>
-                    </label>
-                </div>
-                <div className = 'py-1'>
-                    <label>
-                    <span className ="m-1">Add file:</span>
                     <input name="file3" type="file"/>
                     </label>
-                    
                     <label className="label">
-                        <span className="label-text-alt">Max size is 8MB</span>
+                        <span className="label-text-alt">Max size is 4MB per file</span>
                     </label>
                 </div>
                     <input type="submit" placeholder="Add answer here" className="input input-bordered input-accent w-full max-w-xs m-2" />
