@@ -18,7 +18,7 @@ Since then, I have tried to learn and grow with every opportunity, and am contin
                     </div>
                 </div>
             </div>
-            <div className="divider"></div>
+
 
         </>
     );

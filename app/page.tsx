@@ -44,8 +44,8 @@ export default function Page(){
                 
             </div>
             <div className = "divider"></div>
-            <div className= "md justify-items-center">
-            <Image  className= "justify-self-center" width={1000} height={1000} alt = "monito" src ={monito}/>
+            <div className= "md flex justify-center">
+            <Image width={1000} height={1000} alt = "monito" src ={monito}/>
             </div>
     
             <div className = "divider"></div>

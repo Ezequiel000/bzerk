@@ -1,6 +1,8 @@
 export default function About(){
 
     return(
-        <h1> Shop comming soon....</h1>
+        <div className = "flex justify-center">
+        <h1 > Shop comming soon....</h1>
+        </div>
     );
 }
